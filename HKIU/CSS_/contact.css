@@ -1,0 +1,21 @@
+.cont {
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+table {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    border: solid;
+    border-collapse: collapse;
+    border-color: #ddd;
+}
+table tr, th, td {
+    border: solid;
+    border-color: #ddd;
+}
+th {
+    background-color: pink;
+}

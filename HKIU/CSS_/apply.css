@@ -1,0 +1,118 @@
+.title2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.engdiv {
+    border: solid;
+    border-color: lightgray;
+    box-sizing: border-box;
+}
+
+.emp {
+    height: 65px;
+}
+
+h4 {
+    border-style: outset;
+    border: solid;
+
+    background-color: lightcoral;
+    width: 400px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-width: 1px;
+    border-bottom: white;
+    text-align: center;
+}
+
+h4:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+
+.form {
+    border: solid;
+    display: inline-block;
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 400px;
+    padding: 1%;
+}
+
+.form:hover {
+    cursor: pointer;
+    background-color: pink;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+
+#hheng,
+#hsc,
+#his {
+    float: left;
+    margin: 0 auto;
+    padding: 1.5%;
+    border: solid;
+    box-sizing: border-box;
+}
+
+#isc1,
+#sc1,
+#eng1 {
+    display: none;
+    padding-top: 1%;
+}
+
+/* #hheng:hover ~ #eng1, #eng1:hover {
+    display: inline-block;
+    background-color: white;
+    transition: 0.3s;
+}
+#hsc:hover ~ #sc1, #sc1:hover {
+    display: inline-block;  
+    transition: 0.3s;
+}
+#his:hover ~ #isc1, #isc1:hover {
+    display: inline-block;
+    transition: 0.3s;
+} */
+.choice {
+    clear: both;
+}
+
+table,
+tr,
+td,
+th {
+    border: solid;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+.choice {
+    padding: 2%;
+}
+
+th {
+    background-color: pink;
+}
+
+td:hover {
+    background-color: lightpink;
+}
+
+button {
+    border: solid;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: pink;
+}

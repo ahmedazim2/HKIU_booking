@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ahmed Azim">
+    <title>HKIU Design </title>
+    <link rel="Icon" type="images/x-icon" href="images/logo2.png">
+    <link rel="stylesheet" href="CSS_/theme.css">
+    <link rel="stylesheet" href="CSS_/design.css">
+
+
+</head>
+
+<body>
+    <header>
+        <h1> <img src="images/logo.png" width="400" height="100" alt="HKIU Logo"> </h1>
+        <h1 id="title1">Hong Kong Industrial University</h1>
+    </header>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="HOME_CW1.html" target="_blank">Home</a></li>
+                <li><a href="ABOUT_CW1.html" target="_blank">About</a></li>
+                <li><a href="APPLY_CW1.html" target="_blank">Apply</a></li>
+                <li><a href="VISIT_CW1.html" target="_blank">Visit</a></li>
+                <li><a href="PROGRAM_CW1.html" target="_blank">Program</a></li>
+                <li><a href="CONTACT_CW1.html" target="_blank">Contact</a></li>
+            </ul>
+
+        </nav>
+    </div>
+
+    <!-- <div class="title1">Welcome to HKIU</div> -->
+    <h4>Welcome to HKIU</h4>
+    <h1>Design Page</h1>
+    <h3>Name: Ahmed Azim</h3>
+    <h3> SID:57880114 </h3>
+
+    <h2>Positioning</h2>
+    <p>There is two uses of unique positioning schemes.</p>
+    <p>First,in line 63 of theme.css, position:sticky has been used in the nav bar. This makes the navigation bar stick
+        to the top of the webpages for easy access.</p>
+    <p>Secondly, in the home page in line 24 of home.css, the apply now button has been used with position:fixed. This
+        enables the user to have the apply button fixed in the bottom right for easy access.</p>
+    <h2>CSS3 techniques</h2>
+    <p>Round corners have been used in multiple occassions such as in apply.css, in lines 20 and 21 and in home.css in
+        line 28.</p>
+    <p>Box-shadow technique has been used in the navigation bar in line 24 of theme.css and in line 39 of apply.css to
+        give a 3D effect</p>
+    <p>Transitions have been used in line 57, 61 and 65 of apply.css to allow a smoother drop down transition.</p>
+    <h2>Style grouping</h2>
+    <p>External links are used for styling. Every page has a common theme.css for the heading, navigation bar and
+        footer. Additionally, every page has their own individual css page for their own respective styling.</p>
+    <br>
+    <h2>Fixed height(line 6) and overflow:auto(line 7) has been used in about.css paired with float(line 8, 20) to
+        enable a mutli-column layout in the about page which is still functional.
+    </h2>
+    <h2>JAVASCRIPT</h2>
+    <h2>Let</h2>
+    <p>Apply:0</p>
+    <p>Program:0</p>
+    <p> Visit: 117, 118, 119, 121
+    </p>
+    <p>Within an event listener function, let has been utilized. Having a block scope (which let possesses) enables us
+        to limit the variables' use to the function because they will only be utilized inside the function or block.
+
+
+    </p>
+    <p>Program: 0</p>
+    <h2>Const</h2>
+    <p>Program: 0
+    </p>
+    <p>Apply:0</p>
+    <p>Visit: 79, 80, 81, 82, 114
+        Since all of the variables listed here are for selectors, they won't need to be altered, which will be useful
+        because "constant" variables can't be assigned to other variables.
+        .</p>
+    <h2>Set</h2>
+    <p>Program: 0</p>
+    <p>Visit: 0</p>
+    <p>Apply: 170 to 179, 243
+        The chosen major is stored in this set rather than an array. The principal rationale behind this action was to
+        avoid creating duplicates. Duplicates were being pushed into arrays when they were first utilized, which is why
+        the "Total Numbers of Major Applied" was more than it should have been. As a result, a set that prohibits
+        duplicate values was employed.
+
+    </p>
+    <h2>Class</h2>
+    <p>Program: 62 to 102
+        The program page's promotional content is managed by "the PromotionManager" class. The three promotional
+        messages we need to display are contained in "promotions," which is found inside its constructor, along with
+        "element," which chooses the HTML element to display these messages on, and "intervalId," which is a tracking
+        method for the rotation interval.
+
+    </p>
+    <p> "getRandomPromo" selects messages at random, "displayRandomPromo" updates the webpage's designated element with
+        a randomly selected promotion, and "startRotation" uses "setInterval" to continuously cycle through "promotions"
+        at the predetermined interval of three seconds. "stopRotation" halts the rotation so that a message can be
+        shown. The "displayInitialPromo" function ensures that the message is seen right away and starts the subsequent
+        rotations after a 3-second pause.
+
+    </p>
+    <footer> <img src="images/footer_logo.png" width="300" height="100" alt="HKIU Footer Logo">
+        <P>@ CityU 2023 sources of images and text from Wikipedia Commons and Courtesy of Icon pack by Icons8 --
+            designed by
+            <a href="Design_CW1.html" target="_blank">Ahmed Azim</a>
+        </P>
+    </footer>
+</body>
+
+</html>

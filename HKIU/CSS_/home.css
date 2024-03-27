@@ -1,0 +1,33 @@
+.welcome {
+    background-color: lightpink;
+    text-align: center;
+    margin: 0;
+    padding: 2%;
+    
+}
+.welcome p {
+    color: black;
+}
+.info {
+    float: left;
+    width: 48%;
+    padding-left: 2%;
+}
+.maps {
+    float: right;
+    max-width: 50%;
+}
+ul {
+    list-style-type: none;
+}
+.app {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: solid;
+    border-radius: 10px;
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+}
+

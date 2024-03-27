@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HKIU Program</title>
+    <link rel="Icon" type="images/x-icon" href="images/logo2.png">
+    <link rel="stylesheet" href="CSS_/theme.css">
+    <link rel="stylesheet" href="CSS_/program.css">
+    <script>
+        var messages = ["Join Hong Kong Industrial University's College of Science for world-classeducation and research opportunities in science and technology! 20 QUOTAS LEFT",
+            "Join the future of engineering with Hong Kong Industrial University's College of Engineering, offering innovative programs and world-class faculty to prepare you for success in the field! 40 QUOTAS LEFT!",
+            "Join the future of interdisciplinary studies with Hong Kong Industrial University's College of Interdisciplinary Studies, offering innovative programs and world-class faculty to prepare you for success in various fields! 30 QUOTAS LEFT!"];
+
+
+        function pickRandomMessage() {
+            return messages[Math.floor(Math.random() * messages.length)];
+        }
+        function displayRandomMessage() {
+            var randtext = document.getElementById("alter");
+            randtext.textContent = pickRandomMessage();
+        }
+        window.addEventListener("load", displayRandomMessage);
+
+        setInterval(displayRandomMessage, 3000);
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1> <img src="images/logo.png" width="400" height="100" alt="HKIU logo"> </h1>
+        <h1 id="title1">Hong Kong Industrial University</h1>
+    </header>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="HOME_CW1.html" target="_blank">Home</a></li>
+                <li><a href="ABOUT_CW1.html" target="_blank">About</a></li>
+                <li><a href="APPLY_CW1.html" target="_blank">Apply</a></li>
+                <li><a href="VISIT_CW1.html" target="_blank">Visit</a></li>
+                <li><a href="PROGRAM_CW1.html" target="_blank">Program</a></li>
+                <li><a href="CONTACT_CW1.html" target="_blank">Contact</a></li>
+            </ul>
+
+        </nav>
+    </div>
+    <h2 class="prog">Program</h2>
+    <div id="alter" class="texts">
+        <!-- <h2 class="para">Join Hong Kong Industrial University's College of Science for world-class
+            education and research opportunities in science and technology! 20 QUOTAS
+            LEFT!</h2>
+            <video autoplay muted width="1000" height="400" loop class="vid">
+                <source src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video1.mp4" type="video/mp4">
+                <source src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video1.mkv" type="video/mkv">
+                <h2>Your browser does not support this format</h2>
+        </video><br> -->
+    </div>
+    <div id="vidbox">
+        <!-- <h2 class="para">Join the future of engineering with Hong Kong Industrial University's
+            College of Engineering, offering innovative programs and world-class
+            faculty to prepare you for success in the field! 40 QUOTAS LEFT!</h2>  -->
+        <video muted width="1000" height="400" class="vid" id="vid2">
+            <source src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video2.mp4" type="video/mp4">
+            <source src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video2.mkv" type="video/mkv">
+            <h2>Your browser does not support this format</h2>
+        </video><br>
+        <video muted width="1000" height="400" class="vid" id="vid1">
+            <source src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video1.mp4" type="video/mp4">
+            <source src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video1.mkv" type="video/mkv">
+            <h2>Your browser does not support this format</h2>
+        </video><br>
+    </div>
+    <div class="table1">
+        <table>
+            <thead>
+                <tr>
+                    <th>College</th>
+                    <th>Program</th>
+                    <th>Duration</th>
+                    <th>Language</th>
+                    <th>Fee</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>College of Engineering</td>
+                    <td>BSc in Computer Science and Technology</td>
+                    <td>4 years</td>
+                    <td>English</td>
+                    <td>HK$42,100</td>
+                </tr>
+                <tr>
+                    <td>College of Engineering</td>
+                    <td>BEng in Electronic Information</td>
+                    <td>4 years</td>
+                    <td>English</td>
+                    <td>HK$42,100</td>
+                </tr>
+                <tr>
+                    <td>College of Engineering</td>
+                    <td>BEng in Materials Science and Engineering</td>
+                    <td>4 years</td>
+                    <td>English</td>
+                    <td>HK$42,100</td>
+                </tr>
+                <tr>
+                    <td>College of Engineering</td>
+                    <td>BEng in Materials and Chemicals</td>
+                    <td>4 years</td>
+                    <td>English</td>
+                    <td>HK$42,100</td>
+                </tr>
+                <tr>
+                    <td>College of Science</td>
+                    <td>BSc in Physics</td>
+                    <td>4 years</td>
+                    <td>English</td>
+                    <td>HK$42,100</td>
+                </tr>
+                <tr>
+                    <td>College of Science</td>
+                    <td>BSc in Chemistry</td>
+                    <td>4 years</td>
+                    <td>English</td>
+                    <td>HK$42,100</td>
+                </tr>
+                <tr>
+                    <td>College of Science</td>
+                    <td>BSc in Biology</td>
+                    <td>4 years</td>
+                    <td>English</td>
+                    <td>HK$42,100</td>
+                </tr>
+                <tr>
+                    <td>College of Interdisciplinary Studies</td>
+                    <td>BSc in Cognitive Science</td>
+                    <td>4 years</td>
+                    <td>English</td>
+                    <td>HK$42,100</td>
+                </tr>
+                <tr>
+                    <td>College of Interdisciplinary Studies</td>
+                    <td>BEng in Biomedical Engineering</td>
+                    <td>4 years</td>
+                    <td>English</td>
+                    <td>HK$42,100</td>
+                </tr>
+                <tr>
+                    <td>College of Interdisciplinary Studies</td>
+                    <td>BEng in Electronics and
+                        Information Technology</td>
+                    <td>4 years</td>
+                    <td>English</td>
+                    <td>HK$42,100</td>
+                </tr>
+                <tr>
+                    <td>College of Interdisciplinary Studies</td>
+                    <td>BEng in Biology and Medicine </td>
+                    <td>4 years</td>
+                    <td>English</td>
+                    <td>HK$42,100</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+
+        var video1 = document.getElementById('vid1');
+        var video2 = document.getElementById('vid2');
+
+        video1.addEventListener('ended', function () {
+            video1.style.display = 'none';
+            video2.style.display = 'block';
+            video2.play();
+            video1.pause();
+        });
+
+        video2.addEventListener('ended', function () {
+            video2.style.display = 'none';
+            video1.style.display = 'block';
+            video1.play();
+            video2.pause();
+        });
+
+        video1.style.display = 'block';
+        video2.style.display = 'none';
+
+        video1.play();
+    </script>
+    <footer> <img src="images/footer_logo.png" width="300" height="100" alt="HKIU Footer Logo">
+        <P>@ CityU 2023 sources of images and text from Wikipedia Commons and Courtesy of Icon pack by Icons8 --
+            designed by
+            <a href="Design_CW1.html" target="_blank">Ahmed Azim</a>
+        </P>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+h4 {
+    text-align: center;
+    background-color: lightpink;
+    margin: 2%;
+    padding: 1.5%;
+    font-size: xx-large;
+}
+h2 {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+p {
+    color: black;
+}
+

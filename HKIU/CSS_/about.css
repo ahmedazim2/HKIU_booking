@@ -1,0 +1,43 @@
+.welcome {
+    border: solid;
+    border-color: black;
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+    overflow: auto;
+    float: left;
+    width: 48%;
+    margin-left: 1.5%;
+}
+
+table {
+    margin: 0 auto;
+    border: solid;
+    padding: 1%;
+    width: 48%;
+    text-align: center;
+    border-collapse: collapse;
+    float: right;
+    margin-right: 1%;
+}
+table caption {
+    background-color: lightcoral;
+    padding: 1%;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 1.25%;
+    margin-bottom: 1.25%; 
+}
+table tr, th, td {
+    border: solid;
+    border-style: thin; 
+}
+table th {
+    font-weight: bold;
+    background-color: rgb(250, 206, 212);
+}
+table td:hover {
+    background-color: lightpink;
+    cursor: pointer;
+}
+

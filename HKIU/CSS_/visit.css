@@ -1,0 +1,39 @@
+.welcome {
+    text-align: center;
+    clear: both;
+    padding: 2%;
+}
+#map {
+    float: left;
+    padding-left: 4%;
+}
+.location {
+    float: right;
+    padding-right: 4%;
+
+}
+.avail {
+    clear: both;
+    margin-top: 2%;
+    padding: 1.5%;
+}
+fieldset {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+legend {
+    font-weight: bolder;
+}
+
+.fhead {
+    text-align: center;
+    margin-top: 2%;
+}
+label {
+    padding-left: 2%;
+}
+label, input {
+    text-align: center;
+    margin: auto;
+}

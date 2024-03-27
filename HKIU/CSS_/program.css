@@ -1,0 +1,46 @@
+.prog {
+  text-align: center;
+  font-size: xx-large;
+}
+
+/* .vid {
+    float: left ;
+    width: 45%;
+    margin: 2%;
+} */
+.table1 table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: auto;
+
+}
+
+.table1 th,
+.table1 td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.table1 th {
+  background-color: lightcoral;
+}
+
+.texts {
+  text-align: center;
+  float: left;
+  width: 48%;
+  margin-top: 5%;
+  font-weight: bolder;
+
+}
+
+#vidbox {
+  float: right;
+  width: 45%;
+  height: 50%;
+}
+
+.vid {
+  width: 80%;
+}
