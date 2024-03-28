@@ -1,0 +1,1 @@
+This is a website for Hong Kong Industrial University using advanced HTML, CSS, and Javascript. The web pages display the location of the university as well as the courses offered by the university. It adds functionality such as choosing courses as well as sorting them according to their choice of rank.
